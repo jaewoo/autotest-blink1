@@ -3,3 +3,5 @@ pkg/*
 .bundle
 .DS_Store
 samples
+.idea
+atlassian-ide-plugin.xml

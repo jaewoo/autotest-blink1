@@ -1,18 +1,18 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "autotest-growl/version"
+require "autotest-blink1/version"
 
 Gem::Specification.new do |s|
-  s.name        = "autotest-growl"
-  s.version     = Autotest::Growl::VERSION
+  s.name        = "autotest-blink1"
+  s.version     = Autotest::Blink1::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Sven Schwyn"]
-  s.email       = ["ruby@bitcetera.com"]
-  s.homepage    = "http://www.bitcetera.com/products/autotest-growl"
-  s.summary     = %q{Growl notification support for autotest}
-  s.description = %q{This gem aims to improve support for Growl notifications by autotest.}
+  s.authors     = ["Jaewoo Kim"]
+  s.email       = ["kim.jaewoo@gmail.com"]
+  s.homepage    = "http://github.com/jaewoo/autotest-blink1"
+  s.summary     = %q{Blink(1) notification support for autotest}
+  s.description = %q{This gem aims to improve support for Blink(1) notifications by autotest.}
 
-  s.rubyforge_project = "autotest-growl"
+  s.rubyforge_project = "autotest-blink1"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -23,4 +23,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
   s.add_development_dependency "ZenTest"
+  s.add_development_dependency "autotest-fsevent"
 end

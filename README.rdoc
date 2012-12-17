@@ -1,8 +1,8 @@
 = Autotest Growl
 
 * Author: Sven Schwyn (http://www.bitcetera.com)
-* Homepage: http://www.bitcetera.com/products/autotest-growl
-* Issues and forum: https://forge.bitcetera.com/projects/show/autotest-growl
+* Homepage: http://www.bitcetera.com/products/autotest-blink1
+* Issues and forum: https://forge.bitcetera.com/projects/show/autotest-blink1
 
 == DESCRIPTION:
 
@@ -34,7 +34,7 @@ of them. (See "Autotest" below for more on this.)
 
 Now install this gem:
 
-  sudo gem install autotest-growl
+  sudo gem install autotest-blink1
 
 Then add the following line to your ~/.autotest file:
 
@@ -104,7 +104,7 @@ follows: passed.png, pending.png, failed.png, error.png and info.png.
 Place these images in a directory of your choosing and specify its
 location in your ~/.autotest, example:
 
-  Autotest::Growl::image_dir = File.join(ENV['HOME'], '.autotest-growl')
+  Autotest::Growl::image_dir = File.join(ENV['HOME'], '.autotest-blink1')
 
 === Don't Clear the Terminal
 
@@ -155,7 +155,7 @@ notification listing the files modified before tests are re-run.
 === Autotest Binary Not Present
 
 Make sure you have either the ZenTest gem or the autotest-standalone gem
-installed. This dependency has been dropped as of autotest-growl-0.2.5 in
+installed. This dependency has been dropped as of autotest-blink1-0.2.5 in
 order to allow any compatible test suite.
 
 === Unreliable Growl Notifications on Mac OS X
@@ -211,15 +211,15 @@ sequence by adding the follogin to your ~/.autotest:
 
 You can install the bleeding edge version as follows:
 
-  git clone git://github.com/svoop/autotest-growl.git
-  cd autotest-growl
+  git clone git://github.com/svoop/autotest-blink1.git
+  cd autotest-blink1
   bundle install
   rake build
   rake install
 
 Please submit issues on:
 
-https://forge.bitcetera.com/projects/show/autotest-growl
+https://forge.bitcetera.com/projects/show/autotest-blink1
 
 To contribute code, fork the project on Github, add your code and submit a
 pull request:
